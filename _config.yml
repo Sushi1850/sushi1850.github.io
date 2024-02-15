@@ -26,9 +26,9 @@ urls:
 
 author_logo: profile.png
 author: Kevin Lee
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
+author_bio: Hi, my name Kevin Lee. I built this site using devlopr-jekyll :D
+author_email: "kevinduonglee@gmail.com"
+author_location: United States, Utah
 author_website_url: "sushi1850.github.io"
 typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
@@ -51,10 +51,10 @@ author_work_experiences:
 # Education
 author_education_details:
               - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+                college_name: University Of Utah
+                college_url: https://www.utah.edu/
+                college_degree: Computer Science Bachelor w/ EAE Emphasis 
+                description: A 4-year computer science degree with video games experience
                 visibility: true
 
 # Projects
