@@ -9,13 +9,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # Navigation
 urls:
     - text: About
-      url: /
+      url: /about
     - text: Blog
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Contact
-      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
