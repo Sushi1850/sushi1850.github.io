@@ -9,7 +9,7 @@
     thumbnail: 1-thumbnail.jpg
 -
   title: Trash Pandamonium
-  directory: trashPandamonium
+  directory: TrashPandamonium
   preview:
     filename: TPLogo
     original: TPLogo.jpg
