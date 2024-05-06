@@ -11,7 +11,7 @@ urls:
     - text: Home
       url: /
     - text: Projects
-      url: /projects
+      url: /blog
     - text: Gallery
       url: /gallery
 
