@@ -10,8 +10,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Home
       url: /
-    - text: Blog
-      url: /blog
+    - text: Projects
+      url: /Projects
     - text: Gallery
       url: /gallery
 
