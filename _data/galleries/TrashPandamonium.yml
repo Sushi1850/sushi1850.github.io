@@ -1,0 +1,13 @@
+picture_path: trashPandamonium
+preview:
+  filename: TPLogo
+  original: TPLogo.jpg
+  sizes:
+  - TPLogo.jpg
+  thumbnail: TPLogo.jpg
+pictures:
+- filename: TPBoxArtNewLogo
+  original: TPBoxArtNewLogo.png
+  sizes:
+  - TPBoxArtNewLogo.png
+  thumbnail: TPBoxArtNewLogo.png
