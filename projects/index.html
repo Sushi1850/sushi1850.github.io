@@ -16,7 +16,7 @@ permalink: /projects/
         <div class="card-title"> {{gallery.title}}</div>
         <div class="row">
 
-        <a href="{{ site.url }}{{ site.baseurl }}/projects/{{ gallery.directory }}">
+        <a href="{{ site.url }}{{ site.baseurl }}/projects/{{ gallery.directory }}/">
           <img class="img-thumbnail" alt="{{ gallery.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/img/gallery/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
         </a>
         </div>
