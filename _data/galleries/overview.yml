@@ -7,3 +7,12 @@
     sizes:
     - 1-thumbnail.jpg
     thumbnail: 1-thumbnail.jpg
+-
+  title: Trash Pandamonium
+  directory: mountains
+  preview:
+    filename: TPLogo.jpg
+    original: TPLogo.jpg
+    sizes:
+    - TPLogo.jpg
+    thumbnail: TPLogo.jpg
