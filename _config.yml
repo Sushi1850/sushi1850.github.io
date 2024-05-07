@@ -16,13 +16,13 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: KevinLee.jpg
+author_logo: KevinLee.png
 author: Kevin Lee
 author_bio: Hi, my name Kevin Lee.
 author_email: "kevinduonglee@gmail.com"
 author_location: United States, Utah
 author_website_url: "sushi1850.github.io"
-hero_cover_img: KevinLee.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: KevinLee.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
