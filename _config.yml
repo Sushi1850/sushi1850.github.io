@@ -18,7 +18,7 @@ urls:
 
 author_logo: KevinLee.png
 author: Kevin Lee
-author_bio: Hi, my name Kevin Lee.
+author_bio: I’m Kevin Lee - born in Utah in 2000. I grew up playing video games which ultimately inspired me to learn coding and understand how video games were developed. Throughout my education, I learned many fundamentals about games such as the pipeline many industries follow, and coding such as experience with multiple common languages. Furthermore, I created three games during my undergraduate year, which can be seen in projects tab. I graduated from the University of Utah with a 4-year bachelor's degree in computer science with an emphasis in entertainment art and engineering (EAE).   
 author_email: "kevinduonglee@gmail.com"
 author_location: United States, Utah
 author_website_url: "sushi1850.github.io"
@@ -41,7 +41,7 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: mit.png
+              - college_logo: University-of-Utah-logo.png
                 college_name: University Of Utah
                 college_url: https://www.utah.edu/
                 college_degree: Computer Science Bachelor w/ EAE Emphasis 
