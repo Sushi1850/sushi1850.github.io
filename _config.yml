@@ -22,7 +22,7 @@ author_bio: I’m Kevin Lee - born in Utah in 2000. I grew up playing video game
 author_email: "kevinduonglee@gmail.com"
 author_location: United States, Utah
 author_website_url: "sushi1850.github.io"
-hero_cover_img: KevinLee.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: KevinLee.png
 
 # Experiences
 author_work_experiences:
