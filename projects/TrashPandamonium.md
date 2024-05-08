@@ -18,7 +18,7 @@ The seagull works similar to the player but with a slightly higher y-axis so tha
 <html>
     <body>
         <video width="320" height="240" controls>
-            <source src="../assets/video/Cars.mp4" type="video/mp4">
+            <source src="../../assets/video/Cars.mp4" type="video/mp4">
         </video>
     </body>
 </html>
