@@ -6,7 +6,7 @@ thumbnail: /assets/img/posts/TPBoxArt.png
 permalink: /projects/TrashPandamonium/
 ---
 
-This project was built with Unreal Engine 5 (Blueprints)<br>
+This project was built with Unreal Engine 5 (Blueprints), click <a>here</a href="https://store.steampowered.com/app/2900780/Trash_Pandamonium/"> to check out the game on steam!!!<br>
 
 <h1>Respawn</h1>
 
