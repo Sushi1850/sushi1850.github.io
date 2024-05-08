@@ -12,9 +12,11 @@ This project was built with Unreal Engine 5 (Blueprints)
 
 <h3>When a player falls off the platform, the player will be translated upwards and towards a respawn point. Later on, I implemented a seagull that would spawn, pick up the player, rotate towards the respawn point, fly over to the respawn point, drop the player off, and fly upwards afterward.</h3>
 
+
 The way I implemented this functionality is whenever a player touches an out-of-bounds, the player will loses the ability to input any buttons except the pause button by overriding the input mapping of the player. Next, I use two float timelines, one for translating the player upwards which is just the respawn point with a higher y-axis, and the other is used to translate the player to the respawn point while keeping the higher y-axis. Afterwards, the player will be drop onto the battefield and will be able to use input again.
 
 The seagull works similar to the player but with a slightly higher y-axis so that the seagull will appear above the player. When a player falls off, the seagull will spawn to the left of the player and will fly downwards to player. This is done by using a float timeline that will translate the seagull from the spawn location to the player location. Once it reaches the player, the seagull will rotate and face the respawn point then move towards the respawn point. After the seagull has translated to the respawn point, the seagull will rotate upwards while heading towards its forward vector to simulate it flying away.
+
 
 <h1>Cars</h1>
 
@@ -25,6 +27,7 @@ With the cars, I used a float timeline to translate it across the road with a fi
 The collison with the cars will only be activated when it comes into contact with the player mesh and will ignore all other items and objects in the game. This is so that the car can apply damage to the player and enable hit stun and hit stop the player.\
 
 The headlights are built with Unreal Engine 5 cone line with high intensity.
+
 
 <h1>Garbage Truck</h1>
 
