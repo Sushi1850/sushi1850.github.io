@@ -121,9 +121,9 @@ Lastly, a beach ball that will be launch upwards by vector calculation of the pl
 
 <h1>Player Swap Event</h1>
 
-<h3>In the mesa map, there is a slight chance for an event that will swap player location randomly</h3>
+<h3>In the mesa map, there is a slight chance for an event that will swap player locations randomly</h3>
 
-I implemented the player swap by adding each character location into an array and randomize it. Once it is randomize then I would pick the first index of the array and check if it is the current location of the player, if it is then pick the next element in the array, else set that to the new location where the player will be teleported to and remove it from the list.
+I implemented the player swap by adding each character location into an array and randomizing it. Once it is randomized, I would pick the first index of the array and check if it is the current location of the player, if it is then pick the next element in the array, otherwise set that to the new location where the player will be teleported to and remove it from the list.
 
 <html>
     <body>
