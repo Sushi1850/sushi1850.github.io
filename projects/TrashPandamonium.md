@@ -17,7 +17,7 @@ The way I implemented this functionality is that whenever a player touches an ou
 The seagull works similar to the player but with a slightly higher y-axis, so that the seagull will appear above the player. When a player falls off, the seagull will spawn to the left of the player and will fly downward. This is done by using a float timeline that will translate the seagull from the spawn location to the player location. Once it reaches the player, the seagull will rotate and face the respawn point, then move towards the respawn point. After the seagull has translated to the respawn point, it will rotate upward while heading towards its forward vector to simulate it flying away.
 <html>
     <body>
-        <video width="400" height="300" controls>
+        <video width="300" height="200" controls>
             <source src="../../assets/video/Cars.mp4" type="video/mp4">
         </video>
     </body>
