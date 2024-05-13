@@ -61,7 +61,16 @@ The only difference between the garbage truck and the cars is that it has to dum
 
 <h3>This functionality will only be triggered with any damage towards a player such as vehicles, other players, and any objects that inflict damage</h3>
 
-For the hit stop, I used two functions: start hit stop and end hit stop. When a player takes damage, it triggers a hit stop immediately, which will freeze the player with player time dilation by setting it to 0, and it will also call the end hit stop with a set timer by function name, where it will call the function after a timer has reached 0. In the end hit stop, it will change the time dilation back to 1, which will unfreeze the player and allow the player to move again.<br><br>
+For the hit stop, I used two functions: start hit stop and end hit stop. When a player takes damage, it triggers a hit stop immediately, which will freeze the player with player time dilation by setting it to 0, and it will also call the end hit stop with a set timer by function name, where it will call the function after a timer has reached 0. In the end hit stop, it will change the time dilation back to 1, which will unfreeze the player and allow the player to move again.
+
+<html>
+    <body>
+        <video width="300" height="200" controls>
+            <source src="../../assets/video/HitStopAndHitStun.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>
+<br><br>
 
 <h1>Hexagon Boost Pad</h1>
 
