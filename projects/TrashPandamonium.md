@@ -14,7 +14,16 @@ This project was built with Unreal Engine 5 (Blueprints), click <a href="https:/
 
 The way I implemented this functionality is that whenever a player touches an out-of-bounds barrier, the player will lose the ability to input any buttons except the pause button by overriding the input mapping of the player. Next, I use two float timelines, one for translating the player upwards, which is just the respawn point with a higher y-axis, and the other to translate the player to the respawn point while keeping the higher y-axis. Afterwards, the player will be dropped onto the field and will be able to use input again.
 
-The seagull works similar to the player but with a slightly higher y-axis, so that the seagull will appear above the player. When a player falls off, the seagull will spawn to the left of the player and will fly downward. This is done by using a float timeline that will translate the seagull from the spawn location to the player location. Once it reaches the player, the seagull will rotate and face the respawn point, then move towards the respawn point. After the seagull has translated to the respawn point, it will rotate upward while heading towards its forward vector to simulate it flying away.<br><br>
+The seagull works similar to the player but with a slightly higher y-axis, so that the seagull will appear above the player. When a player falls off, the seagull will spawn to the left of the player and will fly downward. This is done by using a float timeline that will translate the seagull from the spawn location to the player location. Once it reaches the player, the seagull will rotate and face the respawn point, then move towards the respawn point. After the seagull has translated to the respawn point, it will rotate upward while heading towards its forward vector to simulate it flying away.
+
+<html>
+    <body>
+        <video width="300" height="200" controls>
+            <source src="../../assets/video/Respawn.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>
+<br><br>
 
 <h1>Cars</h1>
 
@@ -58,20 +67,60 @@ For the hit stop, I used two functions: start hit stop and end hit stop. When a 
 
 <h3>This is a hexagon pad that will accomulate the player progress and will reward the player scraps when the pad reaches 100%</h3>
 
-This boost pad will record the progress of a player when coming into contact with the pad uncontested. I used Unreal Engine 5 collision detection to detect when the player comes into contact with the pad. I used an array to keep track of which player in on the pad and use a float track timeline to handle the progress bar. The progress of the pad will only increase if the player is the only one standing on it. If another player makes contact with the pad then the progress will be in contest mode. If the other player leaves, the progress will continue, else they will be in a contest state until one player leaves. If the player holding the zone leaves, the progress will slowly decrease until none is left then will calculate the progress for the player that stands on the pad. This is similar to the Call of Duty domination flag!<br><br>
+This boost pad will record the progress of a player when coming into contact with the pad uncontested. I used Unreal Engine 5 collision detection to detect when the player comes into contact with the pad. I used an array to keep track of which player in on the pad and use a float track timeline to handle the progress bar. The progress of the pad will only increase if the player is the only one standing on it. If another player makes contact with the pad then the progress will be in contest mode. If the other player leaves, the progress will continue, else they will be in a contest state until one player leaves. If the player holding the zone leaves, the progress will slowly decrease until none is left then will calculate the progress for the player that stands on the pad.
+
+<html>
+    <body>
+        <video width="300" height="200" controls>
+            <source src="../../assets/video/BoostPad.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>
+<br><br>
 
 <h1>Urchin item</h1>
 
 <h3>This pickupable item only spawns in the beach map. The urchin will expand upon contact when thrown onto a surface and will damage player when in range</h3>
 
-The urchin item has a small chance to spawn within the scrap on the beach. This item will be the color blue and can be picked up by a player, simply by coming into contact with it. When pickup, the item will appear on the raccoon's hand to show the player that they can throw an urchin. When thrown, the urchin will detect any objects that come into contact. Once it comes into contact with any object, the urchin will expand and change color to red and will inflict any damage on the player when touched.<br><br>
+The urchin item has a small chance to spawn within the scrap on the beach. This item will be the color blue and can be picked up by a player, simply by coming into contact with it. When pickup, the item will appear on the raccoon's hand to show the player that they can throw an urchin. When thrown, the urchin will detect any objects that come into contact. Once it comes into contact with any object, the urchin will expand and change color to red and will inflict any damage on the player when touched.
+
+<html>
+    <body>
+        <video width="300" height="200" controls>
+            <source src="../../assets/video/UrchinItem.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>
+<br><br>
 
 <h1>Interactive objects</h1>
 
-<h3>Here are some interactive objects that I made: Cactus spikes, a toxic waste barrel, and a beach ball</h3>
+<h3>Here are some interactive objects that I made: Cactus spikes and a beach ball</h3>
 
 Cactus spikes are triggered when any player attacks a cactus. I paired-program with another programmer and we decided to use the player that attacked the cactus forward vector to spawn the spikes and allow it to travel at a constant velocity for a short time before despawning. The cactus will only be on the mesa map.
 
-A toxic waste barrel is also triggered when any player attacks it. The toxic barrel will leak out toxic waste that spreads around the barrel and will slow any player dramatically that walks on top of the toxic waste. These barrels will spawn in the beach map and some of the final showdown.
+Lastly, a beach ball that will be launch upwards by vector calculation of the player to simulate a beach ball having physics when attacked. It will only spawn on the beach map.
 
-Lastly, a beach ball that will be launch upwards by vector calculation of the player to simulate a beach ball having physics when attacked. It will only spawn on the beach map.<br><br>
+<html>
+    <body>
+        <video width="300" height="200" controls>
+            <source src="../../assets/video/InteractiveObjects.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>
+<br><br>
+
+<h1>Player Swap Event</h1>
+
+<h3>In the mesa map, there is a slight chance for an event that will swap player location randomly</h3>
+
+I implemented the player swap by adding each character location into an array and randomize it. Once it is randomize then I would pick the first index of the array and check if it is the current location of the player, if it is then pick the next element in the array, else set that to the new location where the player will be teleported to and remove it from the list.
+
+<html>
+    <body>
+        <video width="300" height="200" controls>
+            <source src="../../assets/video/PlayerSwapEvent.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>
+<br><br>
