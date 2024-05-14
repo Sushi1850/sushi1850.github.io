@@ -7,3 +7,13 @@
     sizes:
     - TPLogo.jpg
     thumbnail: TPLogo.jpg
+
+-
+  title: Compound
+  directory: Compound
+  preview:
+    filename: Compound
+    original: Compound.png
+    sizes:
+    - Compound.png
+    thumbnail: Compound.png
