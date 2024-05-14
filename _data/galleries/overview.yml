@@ -17,3 +17,13 @@
     sizes:
     - Compound.png
     thumbnail: Compound.png
+
+-
+  title: Skykeeper
+  directory: Skykeeper
+  preview:
+    filename: Skykeeper
+    original: Skykeeper.png
+    sizes:
+    - Skykeeper.png
+    thumbnail: Skykeeper.png

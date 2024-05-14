@@ -49,4 +49,3 @@ The axe will deal damage when swung at a shambler that is in range with a collis
 The medkits will heal the person's health when used. The higher the level it is, the more it will heal the player.
 
 The gnome keys are an item for an easter egg. Play the game to find out!!! :)<br><br>
-
