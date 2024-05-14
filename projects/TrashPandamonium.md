@@ -57,7 +57,7 @@ The only difference between the garbage truck and the cars is that it has to dum
 </html>
 <br><br>
 
-<h1>Hit stop and Hit stun</h1>
+<h1>Hit Stop and Hit Stun</h1>
 
 <h3>This functionality will only be triggered with any damage towards a player such as vehicles, other players, and any objects that inflict damage</h3>
 
@@ -87,7 +87,7 @@ This boost pad will record the progress of a player when coming into contact wit
 </html>
 <br><br>
 
-<h1>Urchin item</h1>
+<h1>Urchin Item</h1>
 
 <h3>This pickupable item only spawns in the beach map. The urchin will expand upon contact when thrown onto a surface and will damage player when in range</h3>
 
@@ -102,7 +102,7 @@ The urchin item has a small chance to spawn within the scrap on the beach. This 
 </html>
 <br><br>
 
-<h1>Interactive objects</h1>
+<h1>Interactive Objects</h1>
 
 <h3>Here are some interactive objects that I made: Cactus spikes and a beach ball</h3>
 
@@ -133,3 +133,7 @@ I implemented the player swap by adding each character location into an array an
     </body>
 </html>
 <br><br>
+
+<h1>Other Contributions</h1>
+
+Other contributions that I made for the game that were changed includes: Dens, Input Mapping for Controllers, Dash, Movement.
