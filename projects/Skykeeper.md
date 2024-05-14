@@ -1,9 +1,9 @@
 ---
 layout: projectInformation
-title:  "Compound"
-summary: "My contribution to Compound"
-thumbnail: /assets/img/gallery/Compound/Compound.png
-permalink: /projects/Compound/
+title:  "Skykeeper"
+summary: "My contribution to Skykeeper"
+thumbnail: /assets/img/gallery/Skykeeper/Skykeeper.png
+permalink: /projects/Skykeeper/
 ---
 
-This project was built with Unreal Engine 5 (Blueprints), click <a href="https://kimball-brooksby.itch.io/compound" target="_blank">here</a> to check out Compound on itch.io!!!<br>
+This project was built with Unreal Engine 5 (Blueprints), click <a href="https://www.youtube.com/watch?v=APqxm6rHP2A" target="_blank">here</a> to check out Skykeeper on Youtube!!!<br><br>
