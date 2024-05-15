@@ -26,10 +26,11 @@ I created a large island with a bunch of trees that surround the edges of the is
 <h3>I produced most of the scenes from the machinima</h3>
 
 Here are the list of scenes that I produced with Unreal Engine 5 sequencer:
-- Beginning scene
+- Intro scene
 - Robot looking out the window scene
 - Tree growth montage scene
 - Flashback scene
+- Metorite scene
 - Robot saving skykeeper scene
 - Battle in the sky scene
 - Robot sacrifice himself scene
