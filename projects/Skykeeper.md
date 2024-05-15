@@ -10,6 +10,6 @@ This project was built with Unreal Engine 5 (Sequencer), click <a href="https://
 
 Here is Skykeeper, a machinima animatic:
 <iframe width="300" height="200"
-src="https://www.youtube.com/watch?v=APqxm6rHP2A">
+src="https://www.youtube.com/embed/APqxm6rHP2A">
 </iframe>
 
