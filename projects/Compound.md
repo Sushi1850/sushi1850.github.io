@@ -6,7 +6,7 @@ thumbnail: /assets/img/gallery/Compound/Compound.png
 permalink: /projects/Compound/
 ---
 
-This project was built with Unreal Engine 5 (Blueprints), click <a href="https://kimball-brooksby.itch.io/compound" target="_blank">here</a> to check out Compound on Itch.io!!!<br>
+This project was built with GameMaker 2, click <a href="https://kimball-brooksby.itch.io/compound" target="_blank">here</a> to check out Compound on Itch.io!!!<br>
 
 <h1>Doors</h1>
 
