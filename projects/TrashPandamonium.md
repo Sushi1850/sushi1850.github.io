@@ -8,6 +8,11 @@ permalink: /projects/TrashPandamonium/
 
 This project was built with Unreal Engine 5 (Blueprints), click <a href="https://store.steampowered.com/app/2900780/Trash_Pandamonium/" target="_blank">here</a> to check out trash pandamonium on steam!!!<br>
 
+Check out the trailer!!!
+<iframe width="300" height="200"
+src="https://www.youtube.com/embed/fw-PuQP9USE">
+</iframe>
+
 <h1>Respawn</h1>
 
 <h3>When a player falls off the platform, the player will be translated upwards and towards a respawn point. Later on, I implemented a seagull that would spawn, pick up the player, rotate towards the respawn point, fly over to the respawn point, drop the player off, and fly upwards afterward.</h3>
