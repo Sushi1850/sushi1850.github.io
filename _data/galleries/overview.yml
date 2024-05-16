@@ -19,6 +19,16 @@
     thumbnail: Compound.png
 
 -
+  title: Intergalactic Garbage Patch
+  directory: IGP
+  preview:
+    filename: IGP
+    original: IGP.png
+    sizes:
+    - IGP.png
+    thumbnail: IGP.png
+
+-
   title: Skykeeper
   directory: Skykeeper
   preview:
